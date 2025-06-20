@@ -17,7 +17,7 @@ const Contact = () => {
             Get In <span className="text-red-500">Touch</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Ready to secure your premises? Contact us today for a free consultation 
+            Ready to secure your premises? Contact us today for a free consultation
             and discover how we can protect what matters most to you.
           </p>
         </motion.div>
@@ -65,9 +65,10 @@ const Contact = () => {
               >
                 <MapPin className="h-6 w-6" />
               </motion.div>
+              {/*  */}
               <div>
                 <h3 className="text-xl font-bold mb-2">Location</h3>
-                <p className="text-gray-300">Nairobi, Kenya</p>
+                <p className="text-gray-300">Safina Plaza-Eldoret P.O Box 5152-30100, Eldoret</p>
                 <p className="text-gray-300">Serving nationwide</p>
               </div>
             </div>
@@ -108,21 +109,21 @@ const Contact = () => {
                 className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:border-red-500 transition-colors"
               />
             </div>
-            
+
             <motion.input
               whileFocus={{ scale: 1.02 }}
               type="text"
               placeholder="Subject"
               className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:border-red-500 transition-colors"
             />
-            
+
             <motion.textarea
               whileFocus={{ scale: 1.02 }}
               rows={6}
               placeholder="Your Message"
               className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:border-red-500 transition-colors resize-none"
             />
-            
+
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
