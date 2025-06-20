@@ -28,7 +28,7 @@ const Footer = () => {
 
                     <div className="text-center md:text-right">
                         <p className="text-gray-400">
-                            © 2024 Pinnacle Safety Solutions. All rights reserved.
+                            © 2025 Pinnacle Safety Solutions. All rights reserved.
                         </p>
                         <p className="text-gray-500 text-sm mt-1">
                             Professional Fire & Security Systems in Kenya
