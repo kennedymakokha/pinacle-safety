@@ -57,7 +57,7 @@ const Services = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-            Our <span className="text-red-600">Services</span>
+            Our <span className="text-[#8b2936]">Services</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Comprehensive fire protection and security solutions for various market sectors including 
@@ -81,7 +81,7 @@ const Services = () => {
             >
               <motion.div
                 whileHover={{ scale: 1.1, rotate: 5 }}
-                className="w-16 h-16 bg-gradient-to-br from-red-500 to-orange-500 rounded-lg flex items-center justify-center mb-4"
+                className="w-16 h-16 bg-gradient-to-br from-[#8b2936] to-red-500/50 rounded-lg flex items-center justify-center mb-4"
               >
                 <service.icon className="h-8 w-8 text-white" />
               </motion.div>

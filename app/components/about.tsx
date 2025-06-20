@@ -21,7 +21,7 @@ const About = () => {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-              About <span className="text-red-600">Pinnacle Safety</span>
+              About <span className="text-[#8b2936]">Pinnacle Safety</span>
             </h2>
             
             <div className="space-y-6 text-gray-600 text-lg">
@@ -62,7 +62,7 @@ const About = () => {
                 <motion.div
                   animate={{ rotate: [0, 5, -5, 0] }}
                   transition={{ duration: 2, repeat: Infinity, delay: index * 0.5 }}
-                  className="w-16 h-16 bg-gradient-to-br from-red-500 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-4"
+                  className="w-16 h-16 bg-gradient-to-br from-[#8b2936] to-orange-500 rounded-full flex items-center justify-center mx-auto mb-4"
                 >
                   <stat.icon className="h-8 w-8 text-white" />
                 </motion.div>
