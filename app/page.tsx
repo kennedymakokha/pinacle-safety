@@ -40,7 +40,7 @@ export default function ComingSoon() {
             🚧 Coming Soon
           </h1>
           <p className="text-lg md:text-xl text-gray-300 mb-8">
-            We're working hard to launch our new website. Stay tuned for something amazing!
+            We&lsquo;re working hard to launch our new website. Stay tuned for something amazing!
           </p>
 
           {/* Optional Email Input */}
