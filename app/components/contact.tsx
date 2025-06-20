@@ -33,13 +33,13 @@ const Contact = () => {
             <div className="flex items-start space-x-4">
               <motion.div
                 whileHover={{ scale: 1.1 }}
-                className="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center flex-shrink-0"
+                className="w-12 h-12 bg-red-500/50 rounded-lg flex items-center justify-center flex-shrink-0"
               >
                 <Phone className="h-6 w-6" />
               </motion.div>
               <div>
                 <h3 className="text-xl font-bold mb-2">Phone</h3>
-                <p className="text-gray-300">+254 700 000 000</p>
+                <p className="text-gray-300">+254 714 415 588</p>
                 <p className="text-gray-300">+254 711 000 000</p>
               </div>
             </div>
@@ -47,7 +47,7 @@ const Contact = () => {
             <div className="flex items-start space-x-4">
               <motion.div
                 whileHover={{ scale: 1.1 }}
-                className="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center flex-shrink-0"
+                className="w-12 h-12 bg-red-500/50 rounded-lg flex items-center justify-center flex-shrink-0"
               >
                 <Mail className="h-6 w-6" />
               </motion.div>
@@ -61,7 +61,7 @@ const Contact = () => {
             <div className="flex items-start space-x-4">
               <motion.div
                 whileHover={{ scale: 1.1 }}
-                className="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center flex-shrink-0"
+                className="w-12 h-12 bg-red-500/50 rounded-lg flex items-center justify-center flex-shrink-0"
               >
                 <MapPin className="h-6 w-6" />
               </motion.div>
@@ -75,7 +75,7 @@ const Contact = () => {
             <div className="flex items-start space-x-4">
               <motion.div
                 whileHover={{ scale: 1.1 }}
-                className="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center flex-shrink-0"
+                className="w-12 h-12 bg-red-500/50 rounded-lg flex items-center justify-center flex-shrink-0"
               >
                 <Clock className="h-6 w-6" />
               </motion.div>
@@ -127,7 +127,7 @@ const Contact = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               type="submit"
-              className="w-full px-8 py-4 bg-red-600 hover:bg-red-700 rounded-lg text-lg font-semibold transition-colors"
+              className="w-full px-8 py-4 bg-red-500/50 hover:bg-red-700 rounded-lg text-lg font-semibold transition-colors"
             >
               Send Message
             </motion.button>

@@ -133,7 +133,7 @@ const Hero = () => {
                         <motion.button
                             whileHover={{ scale: 1.05, boxShadow: "0 10px 25px rgba(239, 68, 68, 0.3)" }}
                             whileTap={{ scale: 0.95 }}
-                            className="px-8 py-4 bg-red-600 hover:bg-red-700 rounded-lg text-lg font-semibold transition-colors"
+                            className="px-8 py-4 bg-red-500/50 hover:bg-red-700 rounded-lg text-lg font-semibold transition-colors"
                         >
                             Get Free Consultation
                         </motion.button>
