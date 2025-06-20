@@ -66,27 +66,10 @@ const Hero = () => {
                             </div>
                         </div>
 
-                        // <div
-                        //     key={index}
-                        //     className="carousel-image absolute inset-0 transition-opacity duration-1000 ease-in-out"
-                        //     style={{ opacity: 0 }}
-                        // >
-                        //     <Image
-                        //         src={image}
-                        //         height={1000}
-                        //         width={1000}
-                        //         alt={`Background ${index + 1}`}
-                        //         className="w-full h-full object-cover"
-                        //     />
-                        //     <div className="absolute inset-0 bg-gradient-to-br from-red-900/80 via-red-800/70 to-orange-700/80"></div>
-                        // </div>
                     ))}
                 </div>
 
-                {/* Navigation Bar */}
-
-
-                {/* Animated background elements */}
+          
                 <motion.div
                     animate={{
                         scale: [1, 1.2, 1],
