@@ -46,7 +46,7 @@ const Hero = () => {
 
     return (
         <>
-            <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-red-900 via-red-800 to-orange-700 overflow-hidden">
+            <section id='home' className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-red-900 via-red-800 to-orange-700 overflow-hidden">
                 {/* Plain JS Carousel Background */}
                 <div ref={carouselRef} className="absolute inset-0 z-0">
                     {carouselImages.map((image, index) => (
