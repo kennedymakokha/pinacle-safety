@@ -7,11 +7,11 @@ import { useEffect, useRef } from 'react';
 
 
 const carouselImages = [
-    "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=1200&h=800&fit=crop",
-    "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=1200&h=800&fit=crop",
-    "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=800&fit=crop",
-    "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1200&h=800&fit=crop",
-    "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1200&h=800&fit=crop"
+    "/images/slider1.png",
+    "/images/slider2.jpg",
+    "/images/slider3.webp",
+    // "/images/slider4.jpg",
+    // "/images/slider5.jpg",
 ];
 
 const Hero = () => {
@@ -55,15 +55,31 @@ const Hero = () => {
                             className="carousel-image absolute inset-0 transition-opacity duration-1000 ease-in-out"
                             style={{ opacity: 0 }}
                         >
-                            <Image
-                                src={image}
-                                height={1000}
-                                width={1000}
-                                alt={`Background ${index + 1}`}
-                                className="w-full h-full object-cover"
-                            />
-                            <div className="absolute inset-0 bg-gradient-to-br from-red-900/80 via-red-800/70 to-orange-700/80"></div>
+                            <div className="relative w-full h-full">
+                                <Image
+                                    src={image}
+                                    alt={`Background ${index + 1}`}
+                                    fill
+                                    className="object-cover"
+                                />
+                                <div className="absolute inset-0 bg-gradient-to-br from-black/50 via-black/60 to-red-500/50"></div>
+                            </div>
                         </div>
+
+                        // <div
+                        //     key={index}
+                        //     className="carousel-image absolute inset-0 transition-opacity duration-1000 ease-in-out"
+                        //     style={{ opacity: 0 }}
+                        // >
+                        //     <Image
+                        //         src={image}
+                        //         height={1000}
+                        //         width={1000}
+                        //         alt={`Background ${index + 1}`}
+                        //         className="w-full h-full object-cover"
+                        //     />
+                        //     <div className="absolute inset-0 bg-gradient-to-br from-red-900/80 via-red-800/70 to-orange-700/80"></div>
+                        // </div>
                     ))}
                 </div>
 
