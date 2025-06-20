@@ -1,3 +1,4 @@
+// Card.tsx
 import React from "react";
 
 type DivProps = React.HTMLAttributes<HTMLDivElement>;
@@ -15,6 +16,7 @@ export const Card = React.forwardRef<HTMLDivElement, DivProps>(
     );
   }
 );
+Card.displayName = "Card";
 
 export const CardHeader = React.forwardRef<HTMLDivElement, DivProps>(
   ({ className = "", ...props }, ref) => {
@@ -27,6 +29,7 @@ export const CardHeader = React.forwardRef<HTMLDivElement, DivProps>(
     );
   }
 );
+CardHeader.displayName = "CardHeader";
 
 export const CardTitle = React.forwardRef<HTMLHeadingElement, HeadingProps>(
   ({ className = "", ...props }, ref) => {
@@ -39,6 +42,7 @@ export const CardTitle = React.forwardRef<HTMLHeadingElement, HeadingProps>(
     );
   }
 );
+CardTitle.displayName = "CardTitle";
 
 export const CardDescription = React.forwardRef<HTMLParagraphElement, ParagraphProps>(
   ({ className = "", ...props }, ref) => {
@@ -51,6 +55,7 @@ export const CardDescription = React.forwardRef<HTMLParagraphElement, ParagraphP
     );
   }
 );
+CardDescription.displayName = "CardDescription";
 
 export const CardContent = React.forwardRef<HTMLDivElement, DivProps>(
   ({ className = "", ...props }, ref) => {
@@ -63,6 +68,7 @@ export const CardContent = React.forwardRef<HTMLDivElement, DivProps>(
     );
   }
 );
+CardContent.displayName = "CardContent";
 
 export const CardFooter = React.forwardRef<HTMLDivElement, DivProps>(
   ({ className = "", ...props }, ref) => {
@@ -75,3 +81,4 @@ export const CardFooter = React.forwardRef<HTMLDivElement, DivProps>(
     );
   }
 );
+CardFooter.displayName = "CardFooter";

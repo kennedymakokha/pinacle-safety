@@ -1,7 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
-import { Shield, Camera, Lock, AlertTriangle, Flame, Eye } from 'lucide-react';
 import { useEffect, useRef } from 'react';
 
 
@@ -55,8 +55,10 @@ const Hero = () => {
                             className="carousel-image absolute inset-0 transition-opacity duration-1000 ease-in-out"
                             style={{ opacity: 0 }}
                         >
-                            <img
+                            <Image
                                 src={image}
+                                height={1000}
+                                width={1000}
                                 alt={`Background ${index + 1}`}
                                 className="w-full h-full object-cover"
                             />
@@ -66,7 +68,7 @@ const Hero = () => {
                 </div>
 
                 {/* Navigation Bar */}
-               
+
 
                 {/* Animated background elements */}
                 <motion.div
@@ -148,7 +150,7 @@ const Hero = () => {
             </section>
 
             {/* Services Slider Section */}
-           
+
         </>
     );
 };

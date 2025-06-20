@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from './components/footer'
 import Hero from './components/Hero'
 import Services from './components/service'
 
