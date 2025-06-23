@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import Image from 'next/image';
 import Logo from './../../public/logo.png';
-
+import LogoWhite from './../../public/logo-white.png';
 const Header = () => {
     const [scrolled, setScrolled] = useState(false);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -28,15 +28,15 @@ const Header = () => {
         >
             <nav
                 className={`border-b transition-all duration-300 ${scrolled
-                        ? 'bg-white/90 border-gray-200 text-gray-900 backdrop-blur'
-                        : 'bg-white/10 border-white/10 text-white backdrop-blur-md'
+                    ? 'bg-white/90 border-gray-200 text-gray-900 backdrop-blur'
+                    : 'bg-white/10 border-white/10 text-white backdrop-blur-md'
                     }`}
             >
                 <div className="container mx-auto px-4 py-4 flex items-center justify-between">
                     {/* Logo Section */}
                     <div className="flex items-center space-x-3">
                         <Image
-                            src={Logo}
+                            src={!scrolled ? LogoWhite : Logo}
                             width={160} // Better default for mobile
                             height={48}
                             className="h-12 w-auto object-contain"

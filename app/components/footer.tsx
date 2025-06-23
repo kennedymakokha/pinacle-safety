@@ -1,7 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import Logo from './../../public/logo.png'
+import Logo from './../../public/logo-white.png'
 const Footer = () => {
     return (
         <motion.footer
